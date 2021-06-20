@@ -75,6 +75,7 @@ ul {
 }
 html{
     background-color: ivory;
+    height: 100%;
 }
 .name{
     font-size: xx-large;
@@ -85,7 +86,7 @@ html{
     width: 80%;
     padding: 5%;
     margin: 5%;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-bottom: 8%;
     background-color: var(--foreground-color);
 }
@@ -93,7 +94,7 @@ html{
 .option{
     float: right;
     padding: 0.8%;
-    margin-top: 5%; /* make it 3.3% to keep it inside */
+    margin-top: 4.5%; /* make it 3.3% to keep it inside */
     margin-left: 2.0%;
     margin-right: 2.0%;
     background-color: var(--foreground-color);
@@ -103,6 +104,7 @@ html{
     border-top-right-radius: 50%;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 button:hover{
@@ -137,6 +139,7 @@ img{
     font-size: larger;
 }
 .nameblank{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0cm;
     border-style: none;
     border-bottom-style: solid;
@@ -228,4 +231,14 @@ p{
 }
 .projectimage{
     margin-bottom: 4%;
+}
+.connections{
+    margin-top: 8%;
+}
+.connectimage{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 5%;
 }
